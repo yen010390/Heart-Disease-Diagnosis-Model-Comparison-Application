@@ -91,6 +91,18 @@ Run the notebook cells in order — the dataset is downloaded automatically on f
 - scikit-learn (`Pipeline`, `ColumnTransformer`, `StandardScaler`, `OneHotEncoder`, `PolynomialFeatures`, `GaussianNB`, `KNeighborsClassifier`, `DecisionTreeClassifier`, `KMeans`, `StackingClassifier`)
 - matplotlib, seaborn (visualization)
 
+## 🧪 Related Exploration: Streamlit Prediction Dashboard
+
+As a separate, related exploration (AI Vietnam AIO2025, Module 4), a broader model comparison — Logistic Regression, KNN, Decision Tree, SVM, Random Forest, AdaBoost, Gradient Boosting, LightGBM, and XGBoost — was also tested, wrapped in an interactive **Streamlit** dashboard for training models and predicting risk from patient parameters. In that exploration, **Logistic Regression** was the best performer (ROC-AUC ≈ 0.97).
+
+> **Note:** This dashboard is not part of the notebook in this repository — it's a separate prototype from the same broader project, shown here for reference only.
+
+| Train a Model | Make a Prediction |
+|---|---|
+| ![Train model tab](images/dashboard_train.png) | ![Predict tab](images/dashboard_predict.png) |
+
+![ROC curve — Logistic Regression (dashboard prototype)](images/roc_curve.png)
+
 ## 🔭 Future Work
 
 1. Re-run the Naive Bayes / Decision Tree / K-Means evaluation cells explicitly against the `_fe` variables to confirm the true effect of feature engineering on each.
