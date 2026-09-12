@@ -101,6 +101,8 @@ As a separate, related exploration (AI Vietnam AIO2025, Module 4), a broader mod
 |---|---|
 | ![Train model tab](images/dashboard_train.png) | ![Predict tab](images/dashboard_predict.png) |
 
+| Best Model - ROC curve — Logistic Regression |
+|---|
 ![ROC curve — Logistic Regression (dashboard prototype)](images/roc_curve.png)
 
 ## 🔭 Future Work
